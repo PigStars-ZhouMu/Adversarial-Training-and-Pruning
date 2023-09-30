@@ -1,0 +1,434 @@
+LeNet width multiplier : 16
+initialization uniform
+initialization uniform
+==> Loading from lenet_adv_pretrained.pt
+
+Test set: Average nat_loss: 0.0784, nat_Accuracy: 9803/10000 (98.03%)
+
+
+Test set: Average adv_loss: 0.1396, adv Accuracy: 9622/10000 (96.22%)
+
+inside prepare
+['', 'basic_model', 'basic_model.conv1', 'basic_model.conv2', 'basic_model.fc1', 'basic_model.fc2']
+nat_cross_entropy loss: 0.0822126567363739  adv_cross_entropy loss : 0.13196063041687012
+Train Epoch: 0 [0/60000 (0%)]	Loss: 0.131961
+nat_cross_entropy loss: 0.028173306956887245  adv_cross_entropy loss : 0.06466132402420044
+Train Epoch: 0 [32000/60000 (53%)]	Loss: 0.064661
+
+Test set: Average nat_loss: 0.0507, nat_Accuracy: 9872/10000 (98.72%)
+
+
+Test set: Average adv_loss: 0.1143, adv Accuracy: 9667/10000 (96.67%)
+
+nat_cross_entropy loss: 0.0474587045609951  adv_cross_entropy loss : 0.14658735692501068
+Train Epoch: 1 [0/60000 (0%)]	Loss: 0.146587
+nat_cross_entropy loss: 0.0032339398749172688  adv_cross_entropy loss : 0.01309167966246605
+Train Epoch: 1 [32000/60000 (53%)]	Loss: 0.013092
+
+Test set: Average nat_loss: 0.0543, nat_Accuracy: 9868/10000 (98.68%)
+
+
+Test set: Average adv_loss: 0.1096, adv Accuracy: 9699/10000 (96.99%)
+
+nat_cross_entropy loss: 0.0013434654101729393  adv_cross_entropy loss : 0.023529522120952606
+Train Epoch: 2 [0/60000 (0%)]	Loss: 0.023530
+nat_cross_entropy loss: 0.01143136527389288  adv_cross_entropy loss : 0.07030470669269562
+Train Epoch: 2 [32000/60000 (53%)]	Loss: 0.070305
+
+Test set: Average nat_loss: 0.0488, nat_Accuracy: 9879/10000 (98.79%)
+
+
+Test set: Average adv_loss: 0.0957, adv Accuracy: 9742/10000 (97.42%)
+
+nat_cross_entropy loss: 0.0032745685894042253  adv_cross_entropy loss : 0.025472017005085945
+Train Epoch: 3 [0/60000 (0%)]	Loss: 0.025472
+nat_cross_entropy loss: 0.09337672591209412  adv_cross_entropy loss : 0.1779521256685257
+Train Epoch: 3 [32000/60000 (53%)]	Loss: 0.177952
+
+Test set: Average nat_loss: 0.0475, nat_Accuracy: 9877/10000 (98.77%)
+
+
+Test set: Average adv_loss: 0.0962, adv Accuracy: 9754/10000 (97.54%)
+
+nat_cross_entropy loss: 0.0022811023518443108  adv_cross_entropy loss : 0.03350944444537163
+Train Epoch: 4 [0/60000 (0%)]	Loss: 0.033509
+nat_cross_entropy loss: 0.08710285276174545  adv_cross_entropy loss : 0.1057695746421814
+Train Epoch: 4 [32000/60000 (53%)]	Loss: 0.105770
+
+Test set: Average nat_loss: 0.0492, nat_Accuracy: 9866/10000 (98.66%)
+
+
+Test set: Average adv_loss: 0.1128, adv Accuracy: 9688/10000 (96.88%)
+
+nat_cross_entropy loss: 0.010877427645027637  adv_cross_entropy loss : 0.09686972200870514
+Train Epoch: 5 [0/60000 (0%)]	Loss: 0.096870
+nat_cross_entropy loss: 0.0006712421891279519  adv_cross_entropy loss : 0.009632810018956661
+Train Epoch: 5 [32000/60000 (53%)]	Loss: 0.009633
+
+Test set: Average nat_loss: 0.0480, nat_Accuracy: 9866/10000 (98.66%)
+
+
+Test set: Average adv_loss: 0.1102, adv Accuracy: 9658/10000 (96.58%)
+
+nat_cross_entropy loss: 0.0029076135251671076  adv_cross_entropy loss : 0.05871392413973808
+Train Epoch: 6 [0/60000 (0%)]	Loss: 0.058714
+nat_cross_entropy loss: 0.013889197260141373  adv_cross_entropy loss : 0.03582783043384552
+Train Epoch: 6 [32000/60000 (53%)]	Loss: 0.035828
+
+Test set: Average nat_loss: 0.0424, nat_Accuracy: 9889/10000 (98.89%)
+
+
+Test set: Average adv_loss: 0.0910, adv Accuracy: 9748/10000 (97.48%)
+
+nat_cross_entropy loss: 0.025272808969020844  adv_cross_entropy loss : 0.07283653318881989
+Train Epoch: 7 [0/60000 (0%)]	Loss: 0.072837
+nat_cross_entropy loss: 0.0021447157487273216  adv_cross_entropy loss : 0.029449166730046272
+Train Epoch: 7 [32000/60000 (53%)]	Loss: 0.029449
+
+Test set: Average nat_loss: 0.0423, nat_Accuracy: 9888/10000 (98.88%)
+
+
+Test set: Average adv_loss: 0.0901, adv Accuracy: 9753/10000 (97.53%)
+
+nat_cross_entropy loss: 0.004553678911179304  adv_cross_entropy loss : 0.021595852449536324
+Train Epoch: 8 [0/60000 (0%)]	Loss: 0.021596
+nat_cross_entropy loss: 0.006427007727324963  adv_cross_entropy loss : 0.0599309504032135
+Train Epoch: 8 [32000/60000 (53%)]	Loss: 0.059931
+
+Test set: Average nat_loss: 0.0491, nat_Accuracy: 9863/10000 (98.63%)
+
+
+Test set: Average adv_loss: 0.1023, adv Accuracy: 9707/10000 (97.07%)
+
+nat_cross_entropy loss: 0.033166225999593735  adv_cross_entropy loss : 0.10725811123847961
+Train Epoch: 9 [0/60000 (0%)]	Loss: 0.107258
+nat_cross_entropy loss: 0.034938111901283264  adv_cross_entropy loss : 0.0791749656200409
+Train Epoch: 9 [32000/60000 (53%)]	Loss: 0.079175
+
+Test set: Average nat_loss: 0.0481, nat_Accuracy: 9857/10000 (98.57%)
+
+
+Test set: Average adv_loss: 0.1127, adv Accuracy: 9679/10000 (96.79%)
+
+nat_cross_entropy loss: 0.10721435397863388  adv_cross_entropy loss : 0.19829457998275757
+Train Epoch: 10 [0/60000 (0%)]	Loss: 0.198295
+nat_cross_entropy loss: 0.03474757447838783  adv_cross_entropy loss : 0.06552398949861526
+Train Epoch: 10 [32000/60000 (53%)]	Loss: 0.065524
+
+Test set: Average nat_loss: 0.0419, nat_Accuracy: 9869/10000 (98.69%)
+
+
+Test set: Average adv_loss: 0.0909, adv Accuracy: 9735/10000 (97.35%)
+
+nat_cross_entropy loss: 0.04595066234469414  adv_cross_entropy loss : 0.08589135110378265
+Train Epoch: 11 [0/60000 (0%)]	Loss: 0.085891
+nat_cross_entropy loss: 0.027545996010303497  adv_cross_entropy loss : 0.032233621925115585
+Train Epoch: 11 [32000/60000 (53%)]	Loss: 0.032234
+
+Test set: Average nat_loss: 0.0417, nat_Accuracy: 9872/10000 (98.72%)
+
+
+Test set: Average adv_loss: 0.0869, adv Accuracy: 9745/10000 (97.45%)
+
+nat_cross_entropy loss: 0.010737371630966663  adv_cross_entropy loss : 0.07035263627767563
+Train Epoch: 12 [0/60000 (0%)]	Loss: 0.070353
+nat_cross_entropy loss: 0.07708260416984558  adv_cross_entropy loss : 0.19679032266139984
+Train Epoch: 12 [32000/60000 (53%)]	Loss: 0.196790
+
+Test set: Average nat_loss: 0.0611, nat_Accuracy: 9829/10000 (98.29%)
+
+
+Test set: Average adv_loss: 0.1332, adv Accuracy: 9600/10000 (96.00%)
+
+nat_cross_entropy loss: 0.007946381345391273  adv_cross_entropy loss : 0.03272663801908493
+Train Epoch: 13 [0/60000 (0%)]	Loss: 0.032727
+nat_cross_entropy loss: 0.01186000183224678  adv_cross_entropy loss : 0.05429546907544136
+Train Epoch: 13 [32000/60000 (53%)]	Loss: 0.054295
+
+Test set: Average nat_loss: 0.0533, nat_Accuracy: 9842/10000 (98.42%)
+
+
+Test set: Average adv_loss: 0.1120, adv Accuracy: 9687/10000 (96.87%)
+
+nat_cross_entropy loss: 0.004539938643574715  adv_cross_entropy loss : 0.06198703870177269
+Train Epoch: 14 [0/60000 (0%)]	Loss: 0.061987
+nat_cross_entropy loss: 0.060436852276325226  adv_cross_entropy loss : 0.05912661552429199
+Train Epoch: 14 [32000/60000 (53%)]	Loss: 0.059127
+
+Test set: Average nat_loss: 0.0460, nat_Accuracy: 9872/10000 (98.72%)
+
+
+Test set: Average adv_loss: 0.0934, adv Accuracy: 9743/10000 (97.43%)
+
+nat_cross_entropy loss: 0.023346837610006332  adv_cross_entropy loss : 0.07304386794567108
+Train Epoch: 15 [0/60000 (0%)]	Loss: 0.073044
+nat_cross_entropy loss: 0.0007439900655299425  adv_cross_entropy loss : 0.007289587985724211
+Train Epoch: 15 [32000/60000 (53%)]	Loss: 0.007290
+
+Test set: Average nat_loss: 0.0439, nat_Accuracy: 9876/10000 (98.76%)
+
+
+Test set: Average adv_loss: 0.0885, adv Accuracy: 9742/10000 (97.42%)
+
+nat_cross_entropy loss: 0.002767416648566723  adv_cross_entropy loss : 0.01686675474047661
+Train Epoch: 16 [0/60000 (0%)]	Loss: 0.016867
+nat_cross_entropy loss: 0.003937878180295229  adv_cross_entropy loss : 0.036944810301065445
+Train Epoch: 16 [32000/60000 (53%)]	Loss: 0.036945
+
+Test set: Average nat_loss: 0.0463, nat_Accuracy: 9864/10000 (98.64%)
+
+
+Test set: Average adv_loss: 0.1012, adv Accuracy: 9684/10000 (96.84%)
+
+nat_cross_entropy loss: 0.01753745786845684  adv_cross_entropy loss : 0.055035583674907684
+Train Epoch: 17 [0/60000 (0%)]	Loss: 0.055036
+nat_cross_entropy loss: 0.008800438605248928  adv_cross_entropy loss : 0.03007974475622177
+Train Epoch: 17 [32000/60000 (53%)]	Loss: 0.030080
+
+Test set: Average nat_loss: 0.0490, nat_Accuracy: 9855/10000 (98.55%)
+
+
+Test set: Average adv_loss: 0.0985, adv Accuracy: 9702/10000 (97.02%)
+
+nat_cross_entropy loss: 0.0029822560027241707  adv_cross_entropy loss : 0.022181283682584763
+Train Epoch: 18 [0/60000 (0%)]	Loss: 0.022181
+nat_cross_entropy loss: 0.08290446549654007  adv_cross_entropy loss : 0.15172255039215088
+Train Epoch: 18 [32000/60000 (53%)]	Loss: 0.151723
+
+Test set: Average nat_loss: 0.0407, nat_Accuracy: 9880/10000 (98.80%)
+
+
+Test set: Average adv_loss: 0.0821, adv Accuracy: 9735/10000 (97.35%)
+
+nat_cross_entropy loss: 0.013848229311406612  adv_cross_entropy loss : 0.05069161206483841
+Train Epoch: 19 [0/60000 (0%)]	Loss: 0.050692
+nat_cross_entropy loss: 0.08099062740802765  adv_cross_entropy loss : 0.1071510761976242
+Train Epoch: 19 [32000/60000 (53%)]	Loss: 0.107151
+
+Test set: Average nat_loss: 0.0400, nat_Accuracy: 9883/10000 (98.83%)
+
+
+Test set: Average adv_loss: 0.0829, adv Accuracy: 9745/10000 (97.45%)
+
+nat_cross_entropy loss: 0.0006860159337520599  adv_cross_entropy loss : 0.005359732545912266
+Train Epoch: 20 [0/60000 (0%)]	Loss: 0.005360
+nat_cross_entropy loss: 0.15258610248565674  adv_cross_entropy loss : 0.1940957009792328
+Train Epoch: 20 [32000/60000 (53%)]	Loss: 0.194096
+
+Test set: Average nat_loss: 0.0606, nat_Accuracy: 9836/10000 (98.36%)
+
+
+Test set: Average adv_loss: 0.1201, adv Accuracy: 9661/10000 (96.61%)
+
+nat_cross_entropy loss: 0.07958337664604187  adv_cross_entropy loss : 0.13564281165599823
+Train Epoch: 21 [0/60000 (0%)]	Loss: 0.135643
+nat_cross_entropy loss: 0.0031567441765218973  adv_cross_entropy loss : 0.01628764346241951
+Train Epoch: 21 [32000/60000 (53%)]	Loss: 0.016288
+
+Test set: Average nat_loss: 0.0544, nat_Accuracy: 9837/10000 (98.37%)
+
+
+Test set: Average adv_loss: 0.1208, adv Accuracy: 9646/10000 (96.46%)
+
+nat_cross_entropy loss: 0.014093209058046341  adv_cross_entropy loss : 0.06590109318494797
+Train Epoch: 22 [0/60000 (0%)]	Loss: 0.065901
+nat_cross_entropy loss: 0.001355067710392177  adv_cross_entropy loss : 0.00680191908031702
+Train Epoch: 22 [32000/60000 (53%)]	Loss: 0.006802
+
+Test set: Average nat_loss: 0.0417, nat_Accuracy: 9879/10000 (98.79%)
+
+
+Test set: Average adv_loss: 0.0841, adv Accuracy: 9751/10000 (97.51%)
+
+nat_cross_entropy loss: 0.1385427713394165  adv_cross_entropy loss : 0.17070145905017853
+Train Epoch: 23 [0/60000 (0%)]	Loss: 0.170701
+nat_cross_entropy loss: 0.00445748632773757  adv_cross_entropy loss : 0.022396598011255264
+Train Epoch: 23 [32000/60000 (53%)]	Loss: 0.022397
+
+Test set: Average nat_loss: 0.0416, nat_Accuracy: 9884/10000 (98.84%)
+
+
+Test set: Average adv_loss: 0.0823, adv Accuracy: 9755/10000 (97.55%)
+
+nat_cross_entropy loss: 0.00578682404011488  adv_cross_entropy loss : 0.017008282244205475
+Train Epoch: 24 [0/60000 (0%)]	Loss: 0.017008
+nat_cross_entropy loss: 0.1355288028717041  adv_cross_entropy loss : 0.167144775390625
+Train Epoch: 24 [32000/60000 (53%)]	Loss: 0.167145
+
+Test set: Average nat_loss: 0.0725, nat_Accuracy: 9803/10000 (98.03%)
+
+
+Test set: Average adv_loss: 0.1554, adv Accuracy: 9514/10000 (95.14%)
+
+nat_cross_entropy loss: 0.011820283718407154  adv_cross_entropy loss : 0.07525160908699036
+Train Epoch: 25 [0/60000 (0%)]	Loss: 0.075252
+nat_cross_entropy loss: 0.02367882803082466  adv_cross_entropy loss : 0.039615947753190994
+Train Epoch: 25 [32000/60000 (53%)]	Loss: 0.039616
+
+Test set: Average nat_loss: 0.0562, nat_Accuracy: 9833/10000 (98.33%)
+
+
+Test set: Average adv_loss: 0.1094, adv Accuracy: 9667/10000 (96.67%)
+
+nat_cross_entropy loss: 0.016829153522849083  adv_cross_entropy loss : 0.049811240285634995
+Train Epoch: 26 [0/60000 (0%)]	Loss: 0.049811
+nat_cross_entropy loss: 0.003913058899343014  adv_cross_entropy loss : 0.025963809341192245
+Train Epoch: 26 [32000/60000 (53%)]	Loss: 0.025964
+
+Test set: Average nat_loss: 0.0466, nat_Accuracy: 9865/10000 (98.65%)
+
+
+Test set: Average adv_loss: 0.0946, adv Accuracy: 9722/10000 (97.22%)
+
+nat_cross_entropy loss: 0.04007952660322189  adv_cross_entropy loss : 0.06994162499904633
+Train Epoch: 27 [0/60000 (0%)]	Loss: 0.069942
+nat_cross_entropy loss: 0.00259666726924479  adv_cross_entropy loss : 0.010354895144701004
+Train Epoch: 27 [32000/60000 (53%)]	Loss: 0.010355
+
+Test set: Average nat_loss: 0.0453, nat_Accuracy: 9872/10000 (98.72%)
+
+
+Test set: Average adv_loss: 0.0880, adv Accuracy: 9740/10000 (97.40%)
+
+nat_cross_entropy loss: 0.05052221566438675  adv_cross_entropy loss : 0.07586220651865005
+Train Epoch: 28 [0/60000 (0%)]	Loss: 0.075862
+nat_cross_entropy loss: 0.06557943671941757  adv_cross_entropy loss : 0.097142793238163
+Train Epoch: 28 [32000/60000 (53%)]	Loss: 0.097143
+
+Test set: Average nat_loss: 0.0473, nat_Accuracy: 9863/10000 (98.63%)
+
+
+Test set: Average adv_loss: 0.0949, adv Accuracy: 9719/10000 (97.19%)
+
+nat_cross_entropy loss: 0.08628971874713898  adv_cross_entropy loss : 0.12295849621295929
+Train Epoch: 29 [0/60000 (0%)]	Loss: 0.122958
+nat_cross_entropy loss: 0.008641507476568222  adv_cross_entropy loss : 0.022430209442973137
+Train Epoch: 29 [32000/60000 (53%)]	Loss: 0.022430
+
+Test set: Average nat_loss: 0.0488, nat_Accuracy: 9852/10000 (98.52%)
+
+
+Test set: Average adv_loss: 0.1063, adv Accuracy: 9664/10000 (96.64%)
+
+nat_cross_entropy loss: 0.014121977612376213  adv_cross_entropy loss : 0.036397408694028854
+Train Epoch: 30 [0/60000 (0%)]	Loss: 0.036397
+nat_cross_entropy loss: 0.04669679328799248  adv_cross_entropy loss : 0.08076830208301544
+Train Epoch: 30 [32000/60000 (53%)]	Loss: 0.080768
+
+Test set: Average nat_loss: 0.0442, nat_Accuracy: 9872/10000 (98.72%)
+
+
+Test set: Average adv_loss: 0.0871, adv Accuracy: 9744/10000 (97.44%)
+
+nat_cross_entropy loss: 0.010631010867655277  adv_cross_entropy loss : 0.04077013209462166
+Train Epoch: 31 [0/60000 (0%)]	Loss: 0.040770
+nat_cross_entropy loss: 0.0131834140047431  adv_cross_entropy loss : 0.07074416428804398
+Train Epoch: 31 [32000/60000 (53%)]	Loss: 0.070744
+
+Test set: Average nat_loss: 0.0438, nat_Accuracy: 9873/10000 (98.73%)
+
+
+Test set: Average adv_loss: 0.0871, adv Accuracy: 9736/10000 (97.36%)
+
+nat_cross_entropy loss: 0.002597056794911623  adv_cross_entropy loss : 0.06342332810163498
+Train Epoch: 32 [0/60000 (0%)]	Loss: 0.063423
+nat_cross_entropy loss: 0.11379192769527435  adv_cross_entropy loss : 0.16366799175739288
+Train Epoch: 32 [32000/60000 (53%)]	Loss: 0.163668
+
+Test set: Average nat_loss: 0.0610, nat_Accuracy: 9806/10000 (98.06%)
+
+
+Test set: Average adv_loss: 0.1146, adv Accuracy: 9643/10000 (96.43%)
+
+nat_cross_entropy loss: 0.04271484538912773  adv_cross_entropy loss : 0.09926575422286987
+Train Epoch: 33 [0/60000 (0%)]	Loss: 0.099266
+nat_cross_entropy loss: 0.039505451917648315  adv_cross_entropy loss : 0.07535097002983093
+Train Epoch: 33 [32000/60000 (53%)]	Loss: 0.075351
+
+Test set: Average nat_loss: 0.0580, nat_Accuracy: 9836/10000 (98.36%)
+
+
+Test set: Average adv_loss: 0.1296, adv Accuracy: 9602/10000 (96.02%)
+
+nat_cross_entropy loss: 0.01606348156929016  adv_cross_entropy loss : 0.1046408861875534
+Train Epoch: 34 [0/60000 (0%)]	Loss: 0.104641
+nat_cross_entropy loss: 0.005583290476351976  adv_cross_entropy loss : 0.03107266314327717
+Train Epoch: 34 [32000/60000 (53%)]	Loss: 0.031073
+
+Test set: Average nat_loss: 0.0483, nat_Accuracy: 9852/10000 (98.52%)
+
+
+Test set: Average adv_loss: 0.0978, adv Accuracy: 9710/10000 (97.10%)
+
+nat_cross_entropy loss: 0.01119370386004448  adv_cross_entropy loss : 0.027226267382502556
+Train Epoch: 35 [0/60000 (0%)]	Loss: 0.027226
+nat_cross_entropy loss: 0.07660724222660065  adv_cross_entropy loss : 0.1082569882273674
+Train Epoch: 35 [32000/60000 (53%)]	Loss: 0.108257
+
+Test set: Average nat_loss: 0.0464, nat_Accuracy: 9857/10000 (98.57%)
+
+
+Test set: Average adv_loss: 0.0901, adv Accuracy: 9711/10000 (97.11%)
+
+nat_cross_entropy loss: 0.08288382738828659  adv_cross_entropy loss : 0.07895407825708389
+Train Epoch: 36 [0/60000 (0%)]	Loss: 0.078954
+nat_cross_entropy loss: 0.09899548441171646  adv_cross_entropy loss : 0.14569681882858276
+Train Epoch: 36 [32000/60000 (53%)]	Loss: 0.145697
+
+Test set: Average nat_loss: 0.0634, nat_Accuracy: 9820/10000 (98.20%)
+
+
+Test set: Average adv_loss: 0.1316, adv Accuracy: 9606/10000 (96.06%)
+
+nat_cross_entropy loss: 0.10645154118537903  adv_cross_entropy loss : 0.21212051808834076
+Train Epoch: 37 [0/60000 (0%)]	Loss: 0.212121
+nat_cross_entropy loss: 0.05010088533163071  adv_cross_entropy loss : 0.12520712614059448
+Train Epoch: 37 [32000/60000 (53%)]	Loss: 0.125207
+
+Test set: Average nat_loss: 0.0648, nat_Accuracy: 9806/10000 (98.06%)
+
+
+Test set: Average adv_loss: 0.1337, adv Accuracy: 9588/10000 (95.88%)
+
+nat_cross_entropy loss: 0.020024558529257774  adv_cross_entropy loss : 0.04065965488553047
+Train Epoch: 38 [0/60000 (0%)]	Loss: 0.040660
+nat_cross_entropy loss: 0.002592235105112195  adv_cross_entropy loss : 0.01973230578005314
+Train Epoch: 38 [32000/60000 (53%)]	Loss: 0.019732
+
+Test set: Average nat_loss: 0.0456, nat_Accuracy: 9861/10000 (98.61%)
+
+
+Test set: Average adv_loss: 0.0890, adv Accuracy: 9717/10000 (97.17%)
+
+nat_cross_entropy loss: 0.0035731687676161528  adv_cross_entropy loss : 0.024922123178839684
+Train Epoch: 39 [0/60000 (0%)]	Loss: 0.024922
+nat_cross_entropy loss: 0.0116959810256958  adv_cross_entropy loss : 0.03229667991399765
+Train Epoch: 39 [32000/60000 (53%)]	Loss: 0.032297
+
+Test set: Average nat_loss: 0.0450, nat_Accuracy: 9864/10000 (98.64%)
+
+
+Test set: Average adv_loss: 0.0903, adv Accuracy: 9723/10000 (97.23%)
+
+nat_cross_entropy loss: 0.14252342283725739  adv_cross_entropy loss : 0.17145197093486786
+Train Epoch: 40 [0/60000 (0%)]	Loss: 0.171452
+nat_cross_entropy loss: 0.014553592540323734  adv_cross_entropy loss : 0.04650414362549782
+Train Epoch: 40 [32000/60000 (53%)]	Loss: 0.046504
+
+Test set: Average nat_loss: 0.0588, nat_Accuracy: 9813/10000 (98.13%)
+
+
+Test set: Average adv_loss: 0.1180, adv Accuracy: 9632/10000 (96.32%)
+
+<===sparsity type is column
+<===layers to be pruned are {'conv1.weight': 0.8, 'conv2.weight': 0.947}
+column sparsity of layer basic_model.conv1.weight is 0.0
+column sparsity of layer basic_model.conv2.weight is 0.0
+only consider conv layers, compression rate is 1.0
+
+Test set: Average nat_loss: 0.0588, nat_Accuracy: 9813/10000 (98.13%)
+
+
+Test set: Average adv_loss: 0.1124, adv Accuracy: 9646/10000 (96.46%)
+
+saving model lenet_adv_admm.pt
